@@ -2,11 +2,12 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
+    background-color: #E8E8E8;
 }
 
 header {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 40% 60%;
     grid-template-rows: 150px;
     background-color: #092532;
     color: #ffffff;
@@ -22,8 +23,8 @@ header .navigation {
 }
 
 header .navigation .photoPerfil {
-    margin: 20px;
-    margin-left: 220px;
+    margin: 40px 5px;
+    margin-left: 150px;
 }
 
 header .navigation .photoPerfil img {
@@ -33,10 +34,10 @@ header .navigation .photoPerfil img {
 
 header .navigation h3 {
     display: inline-block;
-    font-size: 25px;
+    font-size: 20px;
     height: fit-content;
     margin: 0;
-    margin-top: 20px;
+    margin-top: 35px;
     width: 70px;
     line-height: 133%;
     font-weight: 300;
@@ -48,7 +49,7 @@ header .navigation h4 {
     margin: 0;
     left: -70px;
     line-height: 126%;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 100;
     height: fit-content;
 }
@@ -71,7 +72,7 @@ header .menuNav ul li {
 header .menuNav ul li a {
     color: #ffffff;
     font-weight: 500;
-    font-size: 35px;
+    font-size: 25px;
 }
 
 header .menuNav ul li .hoverLine:hover {
@@ -87,7 +88,42 @@ header .menuNav ul li .hoverBorder:hover {
     color: #ffc7c7;
 }
 
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 598.5px;
+}
 
+.hero .containerHero {
+  min-width: 1000px;
+  margin: 0 10%;
+  display: inherit;
+  flex-wrap: inherit;
+  justify-content: inherit;
+}
+
+.hero .containerHero h1 {
+  font-size: 35px;
+  font-weight: 100;
+  height: max-content;
+  width: max-content;
+}
+
+.hero .containerHero p {
+  position: absolute;
+  bottom: 400px;
+}
+
+.hero .containerHero p i {
+  font-size: 50px;
+  padding-right: 20px;
+}
+
+.hero .containerHero p i .icon-linkedin {
+  color: #047AB8;
+}
 
 @font-face {
   font-family: 'icomoon';
