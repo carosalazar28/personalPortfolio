@@ -144,7 +144,7 @@ header .menuNav ul li .hoverBorder:hover {
   position: relative;
 }
 
-.buttonAboutMe a::after {
+/* .buttonAboutMe a::after {
   background-color: #092532;
   content: '';
   display: block;
@@ -172,7 +172,7 @@ header .menuNav ul li .hoverBorder:hover {
   transform: scale(1.05);
   will-change: transform;
   background-color: #09253224;
-}
+} */
 
 @font-face {
   font-family: 'icomoon';
