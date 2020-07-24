@@ -286,16 +286,84 @@ header .menuNav ul li .hoverBorder:hover {
 .containerPortfolio .buttonContact {
   display: flex;
   justify-content: center;
-  margin-top: 60px;
+  margin-top: 50px;
 }
 
 .containerPortfolio .buttonContact a {
   padding: 35px 95px;
   border-radius: 45px;
-  background-color: #092532;
-  color: #ffc7c7;
+  background-color: #70707029;
+  color: #092532;
   font-size: 2.5rem;
   font-weight: 500;
   text-align: center;
   position: relative;
+}
+
+.contact { 
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+}
+
+.contact .containerContact {
+  width: 60%;
+  height: fit-content;
+  background-color: #092532;
+  border-radius: 15px;
+  color: #ffffff;
+  padding: 20px 60px;
+}
+
+.contact .containerContact h2 {
+  font-size: 3rem;
+  font-weight: 400;
+  margin: 0;
+  padding: 10px 20px;
+}
+
+.contact .containerContact h4 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 0;
+  padding: 10px 20px 40px 20px;
+}
+
+.contact .containerContact p {
+  font-size: 1.5rem;
+  font-weight: 100;
+  padding: 15px 5px 5px 20px;
+  margin: 0;
+}
+
+.contact .containerContact form {
+  padding: 0 20px;
+  width: max-content;
+}
+
+.contact .containerContact form input {
+  width: 350px;
+  border-radius: 20px;
+  font-size: 1rem;
+  padding: 20px;
+  background-color: #E9E9E9;
+}
+
+.contact .containerContact form .inputRequest {
+  padding-bottom: 70px;
+}
+
+.contact .containerContact form button {
+  display: block;
+  padding: 15px 35px;
+  border-radius: 45px;
+  background-color: #89C9B8;
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-align: center;
+  cursor: pointer;
+  margin: 20px auto;
+  border: 0;
 }
