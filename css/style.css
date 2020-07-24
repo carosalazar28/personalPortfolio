@@ -1,3 +1,7 @@
+html {
+  font-size: 10px;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -8,7 +12,7 @@ body {
 header {
     display: grid;
     grid-template-columns: 40% 60%;
-    grid-template-rows: 150px;
+    grid-template-rows: 100px;
     background-color: #092532;
     color: #ffffff;
 }
@@ -23,7 +27,7 @@ header .navigation {
 }
 
 header .navigation .photoPerfil {
-    margin: 40px 5px;
+    margin: auto 5px;
     margin-left: 150px;
 }
 
@@ -34,10 +38,10 @@ header .navigation .photoPerfil img {
 
 header .navigation h3 {
     display: inline-block;
-    font-size: 20px;
+    font-size: 2rem;
     height: fit-content;
     margin: 0;
-    margin-top: 35px;
+    margin-top: 10px;
     width: 70px;
     line-height: 133%;
     font-weight: 300;
@@ -45,11 +49,11 @@ header .navigation h3 {
 
 header .navigation h4 {
     position: relative;
-    top: 90px;
+    top: 60px;
     margin: 0;
     left: -70px;
     line-height: 126%;
-    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: 100;
     height: fit-content;
 }
@@ -72,7 +76,7 @@ header .menuNav ul li {
 header .menuNav ul li a {
     color: #ffffff;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 2.5rem;
 }
 
 header .menuNav ul li .hoverLine:hover {
@@ -93,7 +97,7 @@ header .menuNav ul li .hoverBorder:hover {
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  height: 598.5px;
+  height: 70vh;
 }
 
 .hero .containerHero {
@@ -105,7 +109,7 @@ header .menuNav ul li .hoverBorder:hover {
 }
 
 .hero .containerHero h1 {
-  font-size: 35px;
+  font-size: 3.5rem;
   font-weight: 100;
   height: max-content;
   width: max-content;
@@ -135,44 +139,91 @@ header .menuNav ul li .hoverBorder:hover {
   border-radius: 45px;
   background-color: #092532;
   color: #ffc7c7;
-  font-size: 25px;
+  font-size: 2.5rem;
   font-weight: 500;
   text-align: center;
-  transition: .2s transform ease-in-out;
-  will-change: transform;
-  z-index: 0;
   position: relative;
 }
 
-/* .buttonAboutMe a::after {
-  background-color: #092532;
-  content: '';
-  display: block;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  left: 0;
-  top: 0;
-  transform: translate(0, 0);
-  transition: .2s transform ease-out;
-  will-change: transform;
-  z-index: -1;
+.mainAboutMe {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100vw;
+}
+
+.mainAboutMe .containerMainAboutMe {
+  min-width: 1000px;
+  margin: 0 10%;
+  display: inherit;
+  justify-content: inherit;
+}
+
+.mainAboutMe .containerMainAboutMe .containerMainAboutMeText {
+  margin: auto;
+  margin-left: 50px;
+  width: fit-content;
+}
+
+.mainAboutMe .containerMainAboutMe .containerMainAboutMeText h1 {
+  font-size: 3rem;
+  color: #2A2C2C;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  margin: 0;
+  padding: 10px;
+}
+
+.mainAboutMe .containerMainAboutMe .containerMainAboutMeText h4 {
+  font-size: 5rem;
+  color: #2a2c2c4d;
+  font-weight: 500;
+  letter-spacing: 0.6px;
+  margin: 0;
+  padding: 10px;
+}
+
+.mainAboutMe .containerMainAboutMe .containerMainAboutMeText p {
+  font-size: 1.5rem;
+  color: #2a2c2c;
+  font-weight: 300;
+  letter-spacing: 0.6px;
+  margin: 0;
+  padding: 10px;
+  line-height: 2.5rem;
+}
+
+.mainAboutMe .containerMainAboutMe .containerMainAboutMeText .buttonHireMe {
+  display: inline-block;
+  padding: 25px 60px;
   border-radius: 45px;
-  opacity: 0;
+  background-color: #092532;
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 20px;
 }
 
-.buttonAboutMe a:hover::after {
-  transform: translate(-100%, 0);
-  opacity: 1;
+.mainAboutMe .containerMainAboutMe .containerMainAboutMeText .buttonHireMe a {
+  color: #ffc7c7;
 }
 
-.buttonAboutMe a:hover {
-  border: 2px solid transparent;
-  color: white;
-  transform: scale(1.05);
-  will-change: transform;
-  background-color: #09253224;
-} */
+.mainAboutMe .containerMainAboutMe .containerMainAboutMeText .buttonProject {
+  display: inline-block;
+  padding: 25px 60px;
+  border-radius: 45px;
+  background-color: #70707029;
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-align: center;
+  margin-left: 40px;
+}
+
+.mainAboutMe .containerMainAboutMe .containerMainAboutMeText .buttonProject a {
+  color: #092532;
+}
 
 @font-face {
   font-family: 'icomoon';
