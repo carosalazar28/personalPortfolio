@@ -116,12 +116,12 @@ header .menuNav ul li .hoverBorder:hover {
   width: max-content;
 }
 
-.hero .containerHero p {
+.hero .containerHero div {
   position: absolute;
-  bottom: 400px;
+  bottom: 340px;
 }
 
-.hero .containerHero p i {
+.hero .containerHero div i {
   font-size: 50px;
   padding-right: 20px;
 }
@@ -281,13 +281,13 @@ header .menuNav ul li .hoverBorder:hover {
   font-weight: 400;
   color: #2A2C2C;
   padding: 15px;
-  margin-bottom: 45px;
+  margin-bottom: 15px;
 }
 
 .containerPortfolio .buttonContact {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 35px;
 }
 
 .containerPortfolio .buttonContact a {
@@ -349,6 +349,7 @@ header .menuNav ul li .hoverBorder:hover {
   font-size: 1rem;
   padding: 20px;
   background-color: #E9E9E9;
+  border: 0;
 }
 
 .contact .containerContact form .inputRequest {
