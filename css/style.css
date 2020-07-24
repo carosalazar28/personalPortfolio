@@ -20,6 +20,7 @@ header {
 a {
     text-decoration: none;
     cursor: pointer;
+    color: #ffffff;
 }
 
 header .navigation {
@@ -366,4 +367,23 @@ header .menuNav ul li .hoverBorder:hover {
   cursor: pointer;
   margin: 20px auto;
   border: 0;
+}
+
+footer {
+  width: 100vw;
+  height: 50px;
+  background-color: #092532;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer a {
+  text-decoration: underline;
+}
+
+footer p {
+  padding: 20px 50px;
+  margin: 0;
 }
