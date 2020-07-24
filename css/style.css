@@ -225,6 +225,12 @@ header .menuNav ul li .hoverBorder:hover {
   color: #092532;
 }
 
+.portfolio {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+}
+
 @font-face {
   font-family: 'icomoon';
   src:  url('../fonts/icomoon.eot?xz8epy');
