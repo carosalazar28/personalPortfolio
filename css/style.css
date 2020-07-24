@@ -125,6 +125,55 @@ header .menuNav ul li .hoverBorder:hover {
   color: #047AB8;
 }
 
+.buttonAboutMe {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonAboutMe a {
+  padding: 35px 95px;
+  border-radius: 45px;
+  background-color: #092532;
+  color: #ffc7c7;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+  transition: .2s transform ease-in-out;
+  will-change: transform;
+  z-index: 0;
+  position: relative;
+}
+
+.buttonAboutMe a::after {
+  background-color: #092532;
+  content: '';
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(0, 0);
+  transition: .2s transform ease-out;
+  will-change: transform;
+  z-index: -1;
+  border-radius: 45px;
+  opacity: 0;
+}
+
+.buttonAboutMe a:hover::after {
+  transform: translate(-100%, 0);
+  opacity: 1;
+}
+
+.buttonAboutMe a:hover {
+  border: 2px solid transparent;
+  color: white;
+  transform: scale(1.05);
+  will-change: transform;
+  background-color: #09253224;
+}
+
 @font-face {
   font-family: 'icomoon';
   src:  url('../fonts/icomoon.eot?xz8epy');
