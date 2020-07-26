@@ -17,6 +17,16 @@ header {
     color: #ffffff;
 }
 
+h1 {
+  font-size: 3.5rem;
+  font-weight: 100;
+}
+
+h4, p {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
 a {
     text-decoration: none;
     cursor: pointer;
@@ -54,10 +64,9 @@ header .navigation h4 {
     margin: 0;
     left: -70px;
     line-height: 126%;
-    font-size: 1.5rem;
-    font-weight: 100;
     height: fit-content;
 }
+
 header .menuNav{
     display: flex;
     justify-content: flex-end;
@@ -75,7 +84,6 @@ header .menuNav ul li {
 }
 
 header .menuNav ul li a {
-    color: #ffffff;
     font-weight: 500;
     font-size: 2.5rem;
 }
@@ -110,8 +118,6 @@ header .menuNav ul li .hoverBorder:hover {
 }
 
 .hero .containerHero h1 {
-  font-size: 3.5rem;
-  font-weight: 100;
   height: max-content;
   width: max-content;
 }
@@ -165,7 +171,6 @@ header .menuNav ul li .hoverBorder:hover {
 }
 
 .mainAboutMe .containerMainAboutMe .containerMainAboutMeText h1 {
-  font-size: 3rem;
   color: #2A2C2C;
   font-weight: 500;
   letter-spacing: 0.6px;
@@ -183,7 +188,6 @@ header .menuNav ul li .hoverBorder:hover {
 }
 
 .mainAboutMe .containerMainAboutMe .containerMainAboutMeText p {
-  font-size: 1.5rem;
   color: #2a2c2c;
   font-weight: 300;
   letter-spacing: 0.6px;
@@ -253,7 +257,6 @@ header .menuNav ul li .hoverBorder:hover {
 }
 
 .portfolio .project .projectDetails .projectDescriptionText h4, p {
-  font-size: 1.5rem;
   font-weight: 300;
   line-height: 20px;
   margin: 0;
@@ -276,7 +279,6 @@ header .menuNav ul li .hoverBorder:hover {
 }
 
 .containerPortfolio h1 {
-  font-size: 4rem;
   text-align: center;
   font-weight: 400;
   color: #2A2C2C;
@@ -324,7 +326,7 @@ header .menuNav ul li .hoverBorder:hover {
   padding: 10px 20px;
 }
 
-.contact .containerContact h4 {
+.contact .containerContact h3 {
   font-size: 2rem;
   font-weight: 300;
   margin: 0;
