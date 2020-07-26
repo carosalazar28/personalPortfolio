@@ -305,7 +305,7 @@ header .menuNav ul li .hoverBorder:hover {
 
 .contact { 
   width: 100vw;
-  height: 80vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
 }
@@ -327,7 +327,6 @@ header .menuNav ul li .hoverBorder:hover {
 }
 
 .contact .containerContact h3 {
-  font-size: 2rem;
   font-weight: 300;
   margin: 0;
   padding: 10px 20px 40px 20px;
