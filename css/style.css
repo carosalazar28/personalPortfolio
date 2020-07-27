@@ -342,6 +342,11 @@ header .menuNav ul li .hoverBorder:hover {
   text-align: center;
 }
 
+.portfolio .project .projectDetails .projectDescriptionText a:hover {
+  background-color: #09253226;
+  color: #092532;
+}
+
 .containerPortfolio {
   width: 100vw;
   height: 100vh;
