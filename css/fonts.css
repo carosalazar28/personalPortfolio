@@ -44,5 +44,6 @@
   }
   .icon-github:before {
     content: "\e901";
+    color: black;
   }
   
