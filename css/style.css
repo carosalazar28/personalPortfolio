@@ -367,7 +367,7 @@ header .menuNav ul li .hoverBorder:hover {
 }
 
 .containerPortfolio .buttonContact a {
-  padding: 35px 95px;
+  padding: 25px 60px;
   border-radius: 45px;
   background-color: #70707029;
   color: #092532;
@@ -375,6 +375,10 @@ header .menuNav ul li .hoverBorder:hover {
   font-weight: 500;
   text-align: center;
   position: relative;
+}
+
+.containerPortfolio .buttonContact a:hover {
+  background-color: #70707080;
 }
 
 .contact { 
