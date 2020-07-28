@@ -197,7 +197,6 @@ header .menuNav ul li .hoverBorder:hover {
 
 .mainAboutMe {
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   height: 100vh;
@@ -209,7 +208,6 @@ header .menuNav ul li .hoverBorder:hover {
   margin: 0 10%;
   display: inherit;
   justify-content: inherit;
-  flex-wrap: inherit;
 }
 
 .mainAboutMe .containerMainAboutMe .containerMainAboutMeText {

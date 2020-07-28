@@ -1,4 +1,4 @@
-const ipad = window.matchMedia("screen and (max-width: 765px)")
+const ipad = window.matchMedia("screen and (max-width: 769px)")
 const menu = document.querySelector(".menuNav")
 const burgerButton = document.querySelector("#burger-menu")
 

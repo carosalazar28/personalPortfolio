@@ -39,6 +39,7 @@
 
     .mainAboutMe .containerMainAboutMe {
         min-width: unset;
+        flex-wrap: wrap;
     }
 
     .mainAboutMe .containerMainAboutMe .containerMainAboutMeText {
@@ -49,9 +50,13 @@
     .mainAboutMe .containerMainAboutMe .containerImg {
         margin: auto;
     }
+
+    footer {
+        height: unset;
+    }
 }
 
-@media only screen and (max-width: 765px) {
+@media only screen and (max-width: 769px) {
     .burger-button {
         display: block;
     }
