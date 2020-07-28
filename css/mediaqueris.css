@@ -107,6 +107,11 @@
         left: 0;
     }
 
+    .mainAboutMe {
+        height: unset;
+        margin: 15px auto;
+    }
+
     footer {
         height: unset;
         text-align: center;
@@ -125,13 +130,14 @@
     }
 
     .hero .containerHero div {
-        bottom: -350px;
+        bottom: -250px;
         left: -255px;
         height: max-content;
     }
 
     .hero .containerHero img {
         position: absolute;
+        width: 300px;
     }
 
     .buttonAboutMe {
