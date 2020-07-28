@@ -1,0 +1,95 @@
+@media only screen and (max-width: 1270px) {
+    .mainAboutMe .containerMainAboutMe .containerImg img {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .header .menuNav ul li a {
+        font-size: 2rem;
+    }
+
+    .mainAboutMe .containerMainAboutMe {
+        margin: 0;
+    }
+
+    .mainAboutMe .containerMainAboutMe .containerMainAboutMeText {
+        width: 60%;
+        margin-left: 15px;
+    }
+
+    .containerPortfolio {
+        height: fit-content;
+        margin-bottom: 50px;
+    }
+
+    .portfolio {
+        grid-template-columns: repeat(2, minmax(100px, 400px));
+    }
+
+    .containerPortfolio .buttonContact {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 804px) {
+    .header .menuNav ul li a {
+        font-size: 1.5rem;
+    }
+
+    .mainAboutMe .containerMainAboutMe {
+        min-width: unset;
+    }
+
+    .mainAboutMe .containerMainAboutMe .containerMainAboutMeText {
+        width: unset;
+        margin-left: unset;
+    }
+
+    .mainAboutMe .containerMainAboutMe .containerImg {
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 765px) {
+    .burger-button {
+        display: block;
+    }
+
+    .header {
+        display: block;
+        height: auto;
+    }
+
+    .header .menuNav {
+        position: fixed;
+        background-color: #09253280;
+        z-index: 2;
+        top: 0;
+        left: -100vw;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.3s;
+    }
+
+    .header .menuNav ul li a {
+        font-size: 2.5rem;
+    }
+
+    .header .menuNav ul {
+        display: block;
+        line-height: 4;
+    }
+
+    .header .menuNav.is-active {
+        left: 0;
+    }
+
+    footer {
+        height: unset;
+        text-align: center;
+    }
+}
