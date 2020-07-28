@@ -32,6 +32,9 @@
   }
   .icon-menu:before {
     content: "\e904";
+    font-size: 3rem;
+    line-height: 45px;
+    color: #ffffff;
   }
   .icon-contact:before {
     content: "\e902";

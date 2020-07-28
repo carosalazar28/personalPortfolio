@@ -110,7 +110,7 @@ header .menuNav ul li .hoverBorder:hover {
 }
 
 .hero .containerHero {
-  min-width: 1000px;
+  min-width: 768px;
   margin: 0 auto;
   display: inherit;
   flex-wrap: inherit;
@@ -209,6 +209,7 @@ header .menuNav ul li .hoverBorder:hover {
   margin: 0 10%;
   display: inherit;
   justify-content: inherit;
+  flex-wrap: inherit;
 }
 
 .mainAboutMe .containerMainAboutMe .containerMainAboutMeText {
@@ -449,6 +450,10 @@ header .menuNav ul li .hoverBorder:hover {
   border: 0;
 }
 
+.contact .containerContact form button:hover {
+  background-color: #89c9b880;
+}
+
 footer {
   width: 100vw;
   height: 50px;
@@ -457,6 +462,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 footer a {
@@ -468,3 +474,15 @@ footer p {
   margin: 0;
 }
 
+.burger-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #84c3b380;
+  text-align: center;
+  position: fixed;
+  z-index: 3;
+  left: 5px;
+  top: 20px;
+  display: none;
+}
