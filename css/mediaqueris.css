@@ -66,6 +66,20 @@
         height: auto;
     }
 
+    .header .navigation {
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .header .navigation .photoPerfil {
+        margin: 10px 10px;
+    }
+
+    .header .navigation  h4, h3 {
+        position: initial;
+        margin: 10px 10px;
+    }
+
     .header .menuNav {
         position: fixed;
         background-color: #09253280;
@@ -96,5 +110,48 @@
     footer {
         height: unset;
         text-align: center;
+    }
+
+    .hero .containerHero {
+        min-width: unset;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .hero .containerHero h1, .hero .containerHero div {
+        position: relative;
+        z-index: 1;
+        background-color: #f8fbfc5e;
+    }
+
+    .hero .containerHero div {
+        bottom: -350px;
+        left: -255px;
+        height: max-content;
+    }
+
+    .hero .containerHero img {
+        position: absolute;
+    }
+
+    .buttonAboutMe {
+        display: none;
+    }
+
+    .mainAboutMe .containerMainAboutMe .containerMainAboutMeText .buttonHireMe, .mainAboutMe .containerMainAboutMe .containerMainAboutMeText .buttonProject {
+        display: none;
+    }
+
+    .portfolio {
+        grid-template-columns: 350px;
+    }
+
+    .contact .containerContact {
+        padding: 20px 15px;
+        width: unset;
+    }
+
+    .contact .containerContact form input {
+        width: 250px;
     }
 }
