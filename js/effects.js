@@ -23,3 +23,14 @@ function hideShow() {
         menu.classList.add("is-active")
     }
 }
+
+//Input en progreso para generar las funciones y que funcione correctamente el formulario
+
+const sendButton = document.getElementById("buttonSend")
+
+sendButton.addEventListener("click", sendRequest)
+
+function sendRequest() {
+    alert("This input is in progress, call me or send me e-mail")
+}
+
