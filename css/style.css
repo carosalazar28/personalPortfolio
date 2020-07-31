@@ -317,6 +317,7 @@ header .menuNav ul li .hoverBorder:hover {
 
 .portfolio .project .projectDetails .project-imageContainer img {
   width: 100%;
+  object-fit: cover;
 }
 
 .portfolio .project .projectDetails .projectDescriptionText {
@@ -326,11 +327,16 @@ header .menuNav ul li .hoverBorder:hover {
   padding: 20px;
 }
 
-.portfolio .project .projectDetails .projectDescriptionText h4, p {
+.portfolio .project .projectDetails .projectDescriptionText .projectDescriptionTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio .project .projectDetails .projectDescriptionText .projectDescriptionTitle h4, p {
   font-weight: 300;
   line-height: 20px;
   margin: 0;
-  margin-bottom: 20px;
 }
 
 .portfolio .project .projectDetails .projectDescriptionText a {
