@@ -339,6 +339,10 @@ header .menuNav ul li .hoverBorder:hover {
   margin: 0;
 }
 
+.portfolio .project .projectDetails .projectDescriptionText .project-description {
+  margin-bottom: 20px;
+}
+
 .portfolio .project .projectDetails .projectDescriptionText a {
   padding: 15px 40px;
   border-radius: 45px;
