@@ -17,11 +17,9 @@ function validation(event) {
 validation(ipad)
 
 function hideShow() {
-    if (menu.classList.contains("is-active")) {
-        menu.classList.remove("is-active")
-    } else {
-        menu.classList.add("is-active")
-    }
+    (menu.classList.contains("is-active")) 
+        ? menu.classList.remove("is-active")
+        : menu.classList.add("is-active")
 }
 
 //Input en progreso para generar las funciones y que funcione correctamente el formulario
