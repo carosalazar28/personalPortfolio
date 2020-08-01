@@ -134,14 +134,14 @@
 
 
     .hero .containerHero h1, .hero .containerHero div {
-        position: relative;
+        /* position: relative; */
         z-index: 1;
         background-color: #f8fbfc5e;
     }
 
     .hero .containerHero div {
-        bottom: -250px;
-        left: -255px;
+        /* bottom: -250px;
+        left: -255px; */
         height: max-content;
     }
 
@@ -170,4 +170,10 @@
     .contact .containerContact form input {
         width: 250px;
     }
+}
+
+@media only screen and (max-width: 417px) {
+    .hero .containerHero div {
+        position: unset;
+    }   
 }
