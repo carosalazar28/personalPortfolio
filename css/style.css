@@ -360,7 +360,6 @@ header .menuNav ul li .hoverBorder:hover {
 
 .containerPortfolio {
   width: 100vw;
-  height: 100vh;
 }
 
 .containerPortfolio h1 {
@@ -374,7 +373,7 @@ header .menuNav ul li .hoverBorder:hover {
 .containerPortfolio .buttonContact {
   display: flex;
   justify-content: center;
-  margin-top: 35px;
+  margin: 40px 0;
 }
 
 .containerPortfolio .buttonContact a {
