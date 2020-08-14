@@ -15,6 +15,7 @@ header {
     grid-template-rows: 100px;
     background-color: #092532;
     color: #ffffff;
+    box-shadow: 0px 0px 4px 4px #707070;
 }
 
 h1 {
@@ -309,6 +310,7 @@ header .menuNav ul li .hoverBorder:hover {
   background-color: #ffffff;
   height: fit-content;
   padding-bottom: 20px;
+  box-shadow: 0 0 5px 1px #707070;
 }
 
 .portfolio .project .projectDetails .project-imageContainer {
@@ -472,6 +474,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  box-shadow: 1px 0px 2px 2px #707070;
 }
 
 footer a {
