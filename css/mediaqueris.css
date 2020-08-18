@@ -59,6 +59,7 @@
 @media only screen and (max-width: 769px) {
     .burger-button {
         display: block;
+        cursor: pointer;
     }
 
     .header {
