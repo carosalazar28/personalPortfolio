@@ -135,14 +135,12 @@
 
 
     .hero .containerHero h1, .hero .containerHero div {
-        /* position: relative; */
         z-index: 1;
         background-color: #f8fbfc5e;
     }
 
     .hero .containerHero div {
-        /* bottom: -250px;
-        left: -255px; */
+        bottom: 284px; 
         height: max-content;
     }
 
@@ -173,8 +171,3 @@
     }
 }
 
-@media only screen and (max-width: 417px) {
-    .hero .containerHero div {
-        position: unset;
-    }   
-}

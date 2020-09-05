@@ -508,7 +508,7 @@ footer p {
   text-align: center;
   position: fixed;
   z-index: 3;
-  left: 5px;
-  top: 20px;
+  left: 10px;
+  top: 10px;
   display: none;
 }

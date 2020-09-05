@@ -44,6 +44,7 @@
   .icon-linkedin:before {
     content: "\e903";
     color: #047AB8;
+    margin-right: 15px;
   }
   .icon-github:before {
     content: "\e901";
