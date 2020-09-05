@@ -10,8 +10,6 @@ function validation(event) {
     } else {
         burgerButton.removeEventListener("click", hideShow)
     }
-
-    console.log(event.matches)
 }
 
 validation(ipad)
